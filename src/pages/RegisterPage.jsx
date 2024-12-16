@@ -99,6 +99,7 @@ function RegisterPage() {
             <ReCaptcha
               sitekey="6LfmMpoqAAAAALziyKFVqquerlwE9VXboFIAU_ZL"
               onChange={(value) => setCaptchaValue(value)}
+              aria-hidden="false"
             />
           </div>
 

@@ -21,7 +21,7 @@ function LoginPage() {
   const onSubmit = handleSubmit((data) => signin(data));
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 p-4">
+    <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 p-4" aria-hidden="false">
       <div className="bg-zinc-900 shadow-lg rounded-lg max-w-md w-full p-8">
         <h1 className="text-center text-3xl font-bold text-gray-100 mb-6">Iniciar Sesión</h1>
 
