@@ -83,7 +83,7 @@ function LoginPage() {
           {/* ReCaptcha */}
           <div className="flex justify-center mt-4">
             <ReCaptcha
-              sitekey="6LfFRo4qAAAAAKxtEXJhPpBNev7q_8TycAasdEOS"
+              sitekey="6LfmMpoqAAAAALziyKFVqquerlwE9VXboFIAU_ZL"
               onChange={(value) => setCaptchaValue(value)}
             />
           </div>
