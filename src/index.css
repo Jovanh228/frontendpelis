@@ -1,0 +1,10 @@
+@import "swiper/swiper-bundle.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    background: #202020;
+    color: white;
+}
